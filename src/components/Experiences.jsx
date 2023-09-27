@@ -33,7 +33,7 @@ const Experiences = () => {
 
   return (
     <Section
-      title="Work Experiences"
+      title="Experiences"
     >
       <div className="max-w-xl flex flex-col gap-8 ">
         {Jobs.map(({ id, image, name, comment }) => (
