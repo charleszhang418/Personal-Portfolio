@@ -36,7 +36,7 @@ const Hero = ( { darkMode } ) => {
       { darkMode ? (
         <div className="flex gap-x-8">
         
-          <h2 className="text-8xl bg-gradient-to-r from-blue-600 to-green-500 inline-block text-transparent bg-clip-text">Charles Zhang</h2>
+          <h2 className="max-w-screen text-8xl bg-gradient-to-r from-blue-600 to-green-500 inline-block text-transparent bg-clip-text">Charles Zhang</h2>
           {/* <h2 className="inline-block text-8xl text-indigo-400">Zhang</h2> */}
 
       </div>
