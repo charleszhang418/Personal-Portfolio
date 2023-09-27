@@ -2,4 +2,3 @@
 - Currently with basic ideas and functions
 - TODO:
   - Context, format for Experiences&Projects
-  - Header link
