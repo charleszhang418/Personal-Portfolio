@@ -17,7 +17,7 @@ function App({}) {
 
       <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
         <Hero darkMode={darkMode}/>
-        <div id="Experience"><Experiences /></div>
+        <div id="Experience" darkMode={darkMode}><Experiences /></div>
         <div id="Project"><Projects /></div>
         <Footer />
       </main>

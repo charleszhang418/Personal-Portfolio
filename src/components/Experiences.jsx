@@ -10,24 +10,24 @@ const Experiences = () => {
   const Jobs = [
     {
       id: 1,
-      image: bbiconw,
+      image: bbicon,
       name: "Blackberry Limited",
       comment:
-        "IVY",
+        "Software Developer in TeamIVY",
     },
     {
       id: 2,
-      image: bbiconw,
+      image: bbicon,
       name: "Blackberry Limited",
       comment:
-        "IVY",
+        "Software Developer in TeamIVY",
     },
     {
       id: 3,
       image: unisound,
       name: "Unisound AI Technology Co.,Ltd",
       comment:
-        "IVY",
+        "Backend Developer for speech recognition",
     },
   ];
 
@@ -37,7 +37,7 @@ const Experiences = () => {
     >
       <div className="max-w-xl flex flex-col gap-8 ">
         {Jobs.map(({ id, image, name, comment }) => (
-          <div className="bg-white dark:bg-slate-800 flex p-4 ring-1 ring-slate-900/5 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300">
+          <div className="bg-white dark:bg-slate-900 flex p-4 ring-1 ring-slate-900/5 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300">
             <div className="w-1/4">
               <img
                 src={image}
