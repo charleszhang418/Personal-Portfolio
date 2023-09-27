@@ -38,7 +38,7 @@ const Projects = () => {
 
   return (
     <Section
-      title="Projects"
+      title="Projects" id="Project"
     >
       <div className="grid gap-8 lg:gap-14 lg:grid-cols-2">
         {projects.map(({ id, image, title, github, demo }) => (

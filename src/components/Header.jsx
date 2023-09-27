@@ -8,10 +8,11 @@ const Header = ({ darkMode, setDarkMode }) => {
     <header className="max-w-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
       <nav className="flex justify-between items-center py-5 px-32">
         <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
-          <li><a class="hover:text-gray-200" href="#">Home</a></li>
-          <li><a class="hover:text-gray-200" href="#">Experience</a></li>
-          <li><a class="hover:text-gray-200" href="#">Project</a></li>
-          <li><a class="hover:text-gray-200" href="#">Education</a></li>
+          <li>Home</li>
+          <li><a class="hover:text-gray-200" href="#Experience">Experience</a></li>
+          <li><a class="hover:text-gray-200" href="#Project">Project</a></li>
+          <li><a class="hover:text-gray-200" href="#Education">Education</a></li>
+          
         </ul>
 
         <h1 onClick={() => setDarkMode(!darkMode)}>

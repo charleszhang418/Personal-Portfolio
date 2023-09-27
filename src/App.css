@@ -1,3 +1,7 @@
 .overflow-wrapper{
     overflow-x: hidden;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
