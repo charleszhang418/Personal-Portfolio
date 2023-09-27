@@ -37,15 +37,15 @@ const Experiences = () => {
     >
       <div className="max-w-xl flex flex-col gap-8 ">
         {Jobs.map(({ id, image, name, comment }) => (
-          <div className="flex p-4 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300">
-            <div className="w-1/3">
+          <div className="bg-white dark:bg-slate-800 flex p-4 ring-1 ring-slate-900/5 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300">
+            <div className="w-1/4">
               <img
                 src={image}
                 alt={name}
                 className="object-scale-down h-24 w-48 object-cover object-left pt-2"
               />
             </div>
-            <div className="w-2/3 flex flex-col justify-center items-center gap-3 p-2">
+            <div className="w-3/4 flex flex-col justify-center items-center gap-3 p-2">
               <h3 className="text-xl font-semibold">{name}</h3>
               <p className="text-sm font-extralight">{comment}</p>
             </div>
