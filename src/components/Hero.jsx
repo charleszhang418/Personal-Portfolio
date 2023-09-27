@@ -34,16 +34,18 @@ const Hero = ( { darkMode } ) => {
       <div class="py-8 ..."></div>
       <div class="py-8 ..."></div>
       { darkMode ? (
-      <div className="flex gap-x-8">
-      
-      <h2 className="max-w-xl h-auto text-8xl bg-gradient-to-r from-blue-600 to-green-500 inline-block text-transparent bg-clip-text">Charles</h2>
-      <h2 className="inline-block text-8xl text-indigo-400">Zhang</h2>
+        <div className="max-w-xl h-auto flex gap-x-8">
+        
+          <h2 className="text-8xl bg-gradient-to-r from-blue-600 to-green-500 inline-block text-transparent bg-clip-text">Charles</h2>
+          <h2 className="inline-block text-8xl text-indigo-400">Zhang</h2>
+
       </div>
       ) : (
-        <div className="flex gap-x-8">
+        <div className="max-w-xl h-auto flex gap-x-8">
       
-        <h2 className="max-w-xl h-auto text-8xl bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 inline-block text-transparent bg-clip-text">Charles</h2>
-        <h2 className="inline-block text-8xl text-blue-400">Zhang</h2>
+          <h2 className="text-8xl bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 inline-block text-transparent bg-clip-text">Charles</h2>
+          <h2 className="inline-block text-8xl text-blue-400">Zhang</h2>
+          
         </div>
        
       
