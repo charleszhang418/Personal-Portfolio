@@ -7,7 +7,7 @@ const Header = ({ darkMode, setDarkMode }) => {
   return (
     <header className="max-w-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white items-center">
       
-      <nav className="flex py-5 px-32">
+      <nav className="flex py-5 px-32 mx-auto">
         <h1 onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? (
               <MdWbSunny className="text-2xl cursor-pointer" />
