@@ -1,7 +1,12 @@
 import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import { MdNightsStay, MdWbSunny } from "react-icons/md";
+import {
+  Dropdown,
+  initTE,
+} from "tw-elements";
 
+initTE({ Dropdown });
 
 
 const Header = ({ darkMode, setDarkMode }) => {
@@ -9,10 +14,10 @@ const Header = ({ darkMode, setDarkMode }) => {
 
     <header className="max-w-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
       <nav className="flex justify-between items-center py-5 px-32">
-        <h1 className="text-lg">Charles</h1>
-        <h1 className="link">Experiences</h1>
-        <h1 className="link">Projects</h1>
-        <h1 className="link">Education</h1>
+        <ul className="text-lg">Charles</ul>
+        <li className="link">Experiences</li>
+        <li className="link">Projects</li>
+        <li className="link">Education</li>
 
         <h1 onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? (
