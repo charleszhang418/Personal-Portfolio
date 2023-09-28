@@ -4,43 +4,47 @@ import Section from "./common/Section";
 import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
 
 import temp from '../assets/temp.jpg'
+import tetris from '../assets/tetris.png'
+import semhub from '../assets/semhub.png'
+import robot from '../assets/robot.jpg'
+
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      image: temp,
+      image: tetris,
       title: "Biquadirs",
       github: "https://github.com/charleszhang418/Tetris",
       demo: ""
     },
     {
       id: 2,
-      image: temp,
+      image: semhub,
       title: "Semhub",
       github: "https://github.com/charleszhang418/Semhub",
       demo: ""
     },
     {
       id: 3,
-      image: temp,
+      image: robot,
       title: "Nirvana",
       github: "https://github.com/charleszhang418/Nirvana-2019",
       demo: ""
     },
-    {
-      id: 4,
-      image: temp,
-      title: "ToDoIt",
-      github: "https://github.com/nodejs/node",
-      demo: ""
-    }
+    // {
+    //   id: 4,
+    //   image: temp,
+    //   title: "ToDoIt",
+    //   github: "https://github.com/nodejs/node",
+    //   demo: ""
+    // }
   ];
 
   return (
     <Section
       title="Projects" id="Project"
     >
-      <div className="grid gap-8 lg:gap-14 lg:grid-cols-2">
+      <div className="grid gap-8 lg:gap-14 lg:grid-cols-1">
         {projects.map(({ id, image, title, github, demo }) => (
           <div
             key={id}
@@ -57,14 +61,14 @@ const Projects = () => {
               >
                 <FaGithub />
               </a>
-              <a
+              {/* <a
                 className="text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110"
                 href={demo}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaExternalLinkSquareAlt />
-              </a>
+              </a> */}
             </div>
           </div>
         ))}

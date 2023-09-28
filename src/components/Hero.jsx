@@ -12,7 +12,7 @@ const Hero = ( { darkMode } ) => {
     },
     {
       id: 2,
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/in/chenhao-zhang-charles/",
       icon: <FaLinkedin />,
     },
     {

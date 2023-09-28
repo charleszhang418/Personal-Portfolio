@@ -13,7 +13,7 @@ const Education = () => {
             <div className="w-1/4">
               <img
                 src={uw}
-                className="object-scale-down h-24 w-48 object-cover object-left pt-2"
+                className="bg-slate-900 object-scale-down h-24 w-48 object-cover object-left pt-2"
               />
             </div>
             <div className="w-3/4 flex flex-col justify-center items-center gap-3 p-2">
