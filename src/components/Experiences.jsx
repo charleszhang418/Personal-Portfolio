@@ -5,6 +5,7 @@ import Section from "./common/Section";
 import bbicon from "../assets/blackberry.png"
 import bbiconw from "../assets/blackberry-white.png"
 import unisound from "../assets/unisound.png"
+import uw from "../assets/uwaterloo.png"
 
 const Experiences = () => {
   const Jobs = [
@@ -29,6 +30,13 @@ const Experiences = () => {
       comment:
         "Backend Developer for speech recognition",
     },
+    {
+      id: 4,
+      image: uw,
+      name: "University of Waterloo",
+      comment:
+        "Undergraduate Research Assistant for F1Tenth autonomous racing car"
+    }
   ];
 
   return (
@@ -52,6 +60,7 @@ const Experiences = () => {
           </div>
         ))}
       </div>
+      
     </Section>
   );
 };
