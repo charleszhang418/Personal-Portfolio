@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "./common/Section";
 
-import uw from "../assets/uwaterloo.png"
+import uw from "../assets/uwaterloo.jpg"
 
 const Education = () => {
   return (
