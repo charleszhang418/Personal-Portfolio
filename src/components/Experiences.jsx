@@ -5,7 +5,8 @@ import Section from "./common/Section";
 import bbicon from "../assets/blackberry.png"
 import bbiconw from "../assets/blackberry-white.png"
 import unisound from "../assets/unisound.png"
-import uw from "../assets/uwaterloo.png"
+import uw from "../assets/uwaterloo.jpg"
+import frc from "../assets/frc.png"
 
 const Experiences = () => {
   const Jobs = [
@@ -36,6 +37,13 @@ const Experiences = () => {
       name: "University of Waterloo",
       comment:
         "Undergraduate Research Assistant for F1Tenth autonomous racing car"
+    },
+    {
+      id: 5,
+      image: frc,
+      name: "First Robotics Competition",
+      comment:
+        "Team leader of Team 6394(MITO) & Team 6726(Nirvana)"
     }
   ];
 
@@ -60,7 +68,7 @@ const Experiences = () => {
           </div>
         ))}
       </div>
-      
+
     </Section>
   );
 };
