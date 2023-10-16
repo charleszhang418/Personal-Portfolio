@@ -7,6 +7,7 @@ import temp from '../assets/temp.jpg'
 import tetris from '../assets/tetris.png'
 import semhub from '../assets/semhub.png'
 import robot from '../assets/robot.jpg'
+import zootopia from "../assets/zootopia.png"
 
 const Projects = () => {
   const projects = [
@@ -31,13 +32,13 @@ const Projects = () => {
       github: "https://github.com/charleszhang418/Nirvana-2019",
       demo: ""
     },
-    // {
-    //   id: 4,
-    //   image: temp,
-    //   title: "ToDoIt",
-    //   github: "https://github.com/nodejs/node",
-    //   demo: ""
-    // }
+    {
+      id: 4,
+      image: zootopia,
+      title: "Zootopia",
+      github: "https://github.com/charleszhang418/Zootopia",
+      demo: ""
+    }
   ];
 
   return (
