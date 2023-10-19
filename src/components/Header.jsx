@@ -21,6 +21,8 @@ const Header = ({ darkMode, setDarkMode }) => {
           <li><a class="hover:text-gray-200" href="#Experience">Experience</a></li>
           <li><a class="hover:text-gray-200" href="#Project">Project</a></li>
           <li><a class="hover:text-gray-200" href="#Education">Education</a></li>
+          <li><a class="hover:text-gray-200" href="#Gallery">Gallery</a></li>
+
           <ul class="object-right">
         </ul>
         
