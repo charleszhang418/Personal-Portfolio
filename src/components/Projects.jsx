@@ -8,6 +8,7 @@ import tetris from '../assets/tetris.png'
 import semhub from '../assets/semhub.png'
 import robot from '../assets/robot.jpg'
 import zootopia from "../assets/zootopia.png"
+import bird from "../assets/FlappyBird.png"
 
 const Projects = () => {
   const projects = [
@@ -37,6 +38,13 @@ const Projects = () => {
       image: zootopia,
       title: "Zootopia",
       github: "https://github.com/charleszhang418/Zootopia",
+      demo: ""
+    },
+    {
+      id: 5,
+      image: bird,
+      title: "FlappyBird",
+      github: "https://github.com/charleszhang418/FlappyBird",
       demo: ""
     }
   ];
