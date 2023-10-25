@@ -14,9 +14,9 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      image: tetris,
-      title: "Biquadirs",
-      github: "https://github.com/charleszhang418/Tetris",
+      image: zootopia,
+      title: "Zootopia",
+      github: "https://github.com/charleszhang418/Zootopia",
       demo: ""
     },
     {
@@ -35,16 +35,16 @@ const Projects = () => {
     },
     {
       id: 4,
-      image: zootopia,
-      title: "Zootopia",
-      github: "https://github.com/charleszhang418/Zootopia",
+      image: bird,
+      title: "FlappyBird",
+      github: "https://github.com/charleszhang418/FlappyBird",
       demo: ""
     },
     {
       id: 5,
-      image: bird,
-      title: "FlappyBird",
-      github: "https://github.com/charleszhang418/FlappyBird",
+      image: tetris,
+      title: "Biquadirs",
+      github: "https://github.com/charleszhang418/Tetris",
       demo: ""
     }
   ];
