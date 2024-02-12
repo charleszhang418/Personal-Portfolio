@@ -9,6 +9,7 @@ import semhub from '../assets/semhub.png'
 import robot from '../assets/robot.jpg'
 import zootopia from "../assets/zootopia.png"
 import bird from "../assets/FlappyBird.png"
+import carlane from "../assets/solidWhiteRight.mp4"
 
 const Projects = () => {
   const projects = [
@@ -54,6 +55,25 @@ const Projects = () => {
       title="Projects" id="Project"
     >
       <div className="grid gap-8 lg:gap-14 lg:grid-cols-1">
+        <div
+              key={5}
+              className="max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden"
+            >
+              <video autoPlay loop muted className="w-2/3">
+                <source src={carlane}/>
+              </video>
+              <div className="w-1/3 flex flex-col items-center justify-evenly p-1">
+                <h2>{"CarLaneDetection"}</h2>
+                <a
+                  className="text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110"
+                  href={"https://github.com/charleszhang418"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub />
+                </a>
+              </div>
+            </div>
         {projects.map(({ id, image, title, github, demo }) => (
           <div
             key={id}
