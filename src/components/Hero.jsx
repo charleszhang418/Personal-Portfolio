@@ -55,7 +55,7 @@ const Hero = ( { darkMode } ) => {
       
       <TypeAnimation
         sequence={[
-          "I'm a Developer",
+          "I'm a Software Developer",
           1000,
           "I'm a Sports Lover",
           1000,
