@@ -7,29 +7,30 @@ import bbiconw from "../assets/blackberry-white.png"
 import unisound from "../assets/unisound.png"
 import uw from "../assets/uwaterloo.jpg"
 import frc from "../assets/frc.png"
+import amazon from "../assets/amazon-logo.png"
 
 const Experiences = () => {
   const Jobs = [
     {
       id: 1,
-      image: bbicon,
-      name: "Blackberry Limited",
+      image: amazon,
+      name: "Amazon.com",
       comment:
-        "Software Developer in TeamIVY",
+        "Software Development Engineer Intern in Global Payments Team",
     },
     {
       id: 2,
       image: bbicon,
       name: "Blackberry Limited",
       comment:
-        "Software Developer in TeamIVY",
+        "Software Developer Co-op in TeamIVY",
     },
     {
       id: 3,
       image: unisound,
       name: "Unisound AI Technology Co.,Ltd",
       comment:
-        "Backend Developer for speech recognition",
+        "Backend Developer Intern for speech recognition",
     },
     {
       id: 4,
