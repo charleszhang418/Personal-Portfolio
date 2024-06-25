@@ -9,7 +9,7 @@ const Education = () => {
       title="Education"
     >
       <div className="max-w-xl flex flex-col gap-8 ">
-          <div className="bg-white dark:bg-slate-900 flex p-4 ring-1 ring-slate-900/5 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300">
+          <div className="bg-white dark:bg-slate-900 flex p-4 ring-1 ring-slate-900/5 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300 hover:scale-105 transition-transform duration-300">
             <div className="w-1/4">
               <img
                 src={uw}

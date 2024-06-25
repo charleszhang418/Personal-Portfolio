@@ -20,24 +20,24 @@ const Experiences = () => {
     },
     {
       id: 2,
+      image: uw,
+      name: "University of Waterloo",
+      comment:
+        "Undergraduate Research Assistant for F1Tenth autonomous racing car"
+    },
+    {
+      id: 3,
       image: bbicon,
       name: "Blackberry Limited",
       comment:
         "Software Developer Co-op in TeamIVY",
     },
     {
-      id: 3,
+      id: 4,
       image: unisound,
       name: "Unisound AI Technology Co.,Ltd",
       comment:
         "Backend Developer Intern for speech recognition",
-    },
-    {
-      id: 4,
-      image: uw,
-      name: "University of Waterloo",
-      comment:
-        "Undergraduate Research Assistant for F1Tenth autonomous racing car"
     },
     {
       id: 5,
@@ -54,7 +54,7 @@ const Experiences = () => {
     >
       <div className="max-w-xl flex flex-col gap-8 ">
         {Jobs.map(({ id, image, name, comment }) => (
-          <div className="bg-white dark:bg-slate-900 flex p-4 ring-1 ring-slate-900/5 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300">
+          <div className="bg-white dark:bg-slate-900 flex p-4 ring-1 ring-slate-900/5 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300 hover:scale-105 transition-transform duration-300">
             <div className="w-1/4">
               <img
                 src={image}
