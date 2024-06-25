@@ -18,6 +18,7 @@ const Header = ({ darkMode, setDarkMode }) => {
         
         <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12 justify-between ">
           <li>Home</li>
+          <li><a class="hover:text-gray-200" href="#General">Tech Stack</a></li>
           <li><a class="hover:text-gray-200" href="#Experience">Experience</a></li>
           <li><a class="hover:text-gray-200" href="#Project">Project</a></li>
           <li><a class="hover:text-gray-200" href="#Education">Education</a></li>
